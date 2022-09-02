@@ -8,11 +8,13 @@ namespace Data_Munging
 {
     public class Soccer
     {
-        public string TeamWithSmallDiff() { 
-        string team = null;
-        double col1, col2, col3, diff, min = Double.MaxValue;
-        string[] eachLine;
-        IEnumerable<String> text = File.ReadLines(@"S:\New folder\football.dat");
+        public string TeamWithSmallDiff() 
+        { 
+            string team = null;
+            double col1, col2, col3, diff, min = Double.MaxValue;
+            string[] eachLine;
+            //Replace with corresponding file path
+            IEnumerable<String> text = File.ReadLines(@"S:\New folder\football.dat");
 
             foreach (string line in text)
             {

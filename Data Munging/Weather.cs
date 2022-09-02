@@ -14,6 +14,7 @@ namespace Data_Munging
             int day = 0;
             double col1, col2, col3, min = Double.MaxValue, diff;
             string[] eachLine;
+            //Replace with corresponding file path
             IEnumerable<String> text = File.ReadLines(@"S:\New folder\weather.dat");
             
             foreach (string line in text)
