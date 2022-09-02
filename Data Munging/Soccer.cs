@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data_Munging
 {
-    public class Football
+    public class Soccer
     {
         public string TeamWithSmallDiff() { 
         string team = null;
